@@ -3,29 +3,33 @@ A simple C++ console application that simulates basic banking operations, such a
 
 ## Features
 ✔ Create a new bank account – Generates a random 6-digit account number and stores the account holder's name and balance.
+
 ✔ Deposit money – Adds funds to the account balance.
+
 ✔ Withdraw money – Deducts money from the balance (checks for sufficient funds).
+
 ✔ Display account details – Shows account number, holder name, and current balance.
+
 ✔ Interactive menu – User-friendly command-line interface.
 
 ## How It Works
-Account Creation
+### Account Creation
 
-The user enters their name.
+✔ The user enters their name.
 
-A random 6-digit account number is generated.
+✔ A random 6-digit account number is generated.
 
-The user can optionally deposit an initial amount.
+✔ The user can optionally deposit an initial amount.
 
-Deposits & Withdrawals
+### Deposits & Withdrawals
 
-Users can add or withdraw money with balance checks.
+✔ Users can add or withdraw money with balance checks.
 
-Account Management
+### Account Management
 
-All accounts are stored in a std::vector<BankAccount>.
+✔ All accounts are stored in a std::vector<BankAccount>.
 
-Users can view their account details at any time.
+✔ Users can view their account details at any time.
 
 ## Code Structure
 BankAccount Class
@@ -49,15 +53,17 @@ Handles user input via a menu-driven system.
 Uses a while(true) loop for continuous operation.
 
 ## How to Run
-Compile with a C++17-compatible compiler (e.g., g++):
+### Compile with a C++17-compatible compiler (e.g., g++):
 
 sh
 g++ main.cpp -o bank_system
-Run the executable:
+
+### Run the executable:
 
 sh
 ./bank_system
-Follow the on-screen prompts.
+
+### Follow the on-screen prompts.
 
 ## Possible Improvements
 🔹 Persistent storage (save accounts to a file).
