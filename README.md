@@ -67,6 +67,9 @@ sh
 
 ## Possible Improvements
 🔹 Persistent storage (save accounts to a file).
+
 🔹 Password/PIN security.
+
 🔹 Multiple accounts per user.
+
 🔹 Transaction history logging.
